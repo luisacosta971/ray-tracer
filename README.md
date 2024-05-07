@@ -1,3 +1,3 @@
 # ray-tracer
 
-working on this still
+i am working on this still
