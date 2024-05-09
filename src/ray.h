@@ -11,7 +11,7 @@ public:
     const point3& getOrigin() const { return origin; }
     const vec3& getDirection() const { return direction; }
 
-    point3 at(double scalar) {
+    point3 at(double scalar) const {
         return origin + scalar * direction;
     }
 

@@ -20,6 +20,7 @@ OBJ = $(patsubst $(SRCDIR)/%.cpp,$(OBJDIR)/%.o,$(SRC))
 TARGET = tracer
 
 all: $(TARGET)
+	./tracer > image.ppm
 
 $(TARGET): $(OBJ)
 	$(CXX) $(CXXFLAGS) -o $@ $^
