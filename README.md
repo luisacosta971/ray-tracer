@@ -21,6 +21,6 @@ make all
 ```
 This will create a PPM file. You might need to download a third-party image viewer. Check which ones are available based on your operating system.
 
-Below is an example world. Note that the sample_per_pixel was set to 10 to save time on rendering. Increasing will improve the quality but also take longer to render.
+Below is an example world. Note that the sample_per_pixel was set to 10 to save time on rendering. Increasing this improvse the quality but will also take longer to render.
 
 ![image](https://github.com/luisacosta971/ray-tracer/assets/71291014/477b5010-b2e1-404a-b70d-bcd8423cbee1)
