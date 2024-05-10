@@ -5,7 +5,7 @@
 
 class ray {
 public:
-    explicit ray() = delete;
+    explicit ray() {}
     explicit ray(const point3& orig, const vec3& dir) : origin(orig), direction(dir) {}
 
     const point3& getOrigin() const { return origin; }
